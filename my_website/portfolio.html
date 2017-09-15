@@ -1,21 +1,89 @@
-<!doctype html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title>Portfolio</title>
-      </head>
-      <style>
-          img{
-              display: block;
-              margin: 0 auto;
-          }
-      </style>
-      <body style="background-color:grey;">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-   <a href="aboutme.html">About Me</a>
-    <h1 style="color:royalblue;">Who am I?</h1>
-    <img src="" style="height:50">
-    <p style="color:royalblue;"> I </p>
-      </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid black;
+    padding: 1em;
+    overflow: hidden;
+}
+h1, p {
+    color:white;
+}
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body style=background-color:gray;>
+<div class="container">
+
+<header>
+   <h1>Frankie Morales' Website</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="aboutme.html">Hobbies</a></li>
+    <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li> 
+     <a href="secret.html">
+  <img src="images/clickme.jpg" alt="Click Me" style="width:42px;height:42px;border:0;">
+</a>
+  </ul>
+</nav>
+
+<article>
+  <h1>Portfolio</h1>
+  <p>Name: Frankie Morales<br>Height: 6'1"<br>Age: 17<br>Hobbies: Wrestling, Composing music, and sleeping<br>Future Occupation: Music Composer or Lawyer<br>Favorite Food: Mole(extra spicy)<br>Favorite Music Genre: VIKING METAL!!!!!(click on the player to here "Guardians of Asgaard" by Amon Amarth, my favorite band)<br>Favorite Color: Black</p>
+ <audio controls>
+  <source src="music/goa.mp3" type="audio/mpeg">
+</audio> 
+</article>
+
+<footer>Copyrighted by BananaInc.</footer>
+
+</div>
+
+</body>
+</html>
